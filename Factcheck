@@ -8,8 +8,8 @@ $discard
 $boost,site=mediabiasfactcheck.com
 $boost,site=snopes.com
 $boost,site=factcheck.org
-/ap-fact-check/$boost,site=apnews.com
-/fact-checking/$boost,site=apnews.com
+/ap-fact-check/|$boost,site=apnews.com
+/fact-checking/|$boost,site=apnews.com
 $boost,site=truthorfiction.com
 $boost,site=africacheck.org
 $boost,site=leadstories.com
