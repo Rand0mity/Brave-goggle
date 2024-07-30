@@ -5,18 +5,19 @@
 
 $discard
 
-$boost=1,site=mediabiasfactcheck.com
-$boost=1,site=snopes.com
-$boost=1,site=factcheck.org
+$boost=3,site=mediabiasfactcheck.com
+$boost=3,site=snopes.com
+$boost=3,site=factcheck.org
 /ap-fact-check/$boost=3,site=apnews.com
 /fact-checking/$boost=3,site=apnews.com
 $boost=2,site=truthorfiction.com
 $boost=2,site=africacheck.org
 $boost=2,site=leadstories.com
 $boost=2,site=fullfact.com
-$boost=3,site=opensecrets.org
-$boost=3,site=leadstories.com
-$boost=3,site=checkyourfact.com
-$boost=3,site=sciencefeedback.co
+$boost=2,site=politifact.com
+$boost=2,site=opensecrets.org
+$boost=2,site=leadstories.com
+$boost=2,site=checkyourfact.com
+$boost=2,site=sciencefeedback.co
 
-!/factcheck.$boost=3
+!/factcheck.$boost=1
